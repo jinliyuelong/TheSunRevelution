@@ -271,6 +271,5 @@ func earthTurn()  {
     
 ```
 ![最终效果](http://img.blog.csdn.net/20170913121516195?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvbGl5YW5qdW4yMDE=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
-123
 
 >可以看到地球被光找到的地方会发亮，还有太阳周围有一层光晕
