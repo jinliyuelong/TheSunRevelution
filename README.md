@@ -1,3 +1,7 @@
+#文章地址
+
+http://blog.csdn.net/liyanjun201/article/details/77948371
+
 ##前言
 我们一般创建ar项目都是Augumented Reality App，系统会给我们生成一些代码。今天我们我们就从普通的Single View App一步步创建实现ar项目
 ##太阳公转ar小项目
