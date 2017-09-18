@@ -37,7 +37,12 @@ class SunRevolutionViewController: UIViewController,ARSCNViewDelegate {
     
     
     
-    
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+        
+        // Pause the view's session
+        arSession.pause()
+    }
     
     
     
@@ -46,7 +51,7 @@ class SunRevolutionViewController: UIViewController,ARSCNViewDelegate {
         
         arConfiguration.isLightEstimationEnabled = true//自适应灯光（室內到室外的話 畫面會比較柔和）
         
-        arSession.run(arConfiguration)
+        arSession.run(arConfiguration, options: [.removeExistingAnchors,.resetTracking])
     }
     
     
